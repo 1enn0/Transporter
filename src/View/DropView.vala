@@ -45,7 +45,7 @@ public class DropView : AbstractView {
         add (box);
         show_all ();
 
-        Gtk.drag_dest_set (this, Gtk.DestDefaults.MOTION, targets, Gdk.DragAction.COPY);
+        Gtk.drag_dest_set (this, Gtk.DestDefaults.MOTION | Gtk.DestDefaults.DROP, targets, Gdk.DragAction.COPY);
         drag_motion.connect (this.on_drag_motion);
         drag_leave.connect (this.on_drag_leave);
         drag_data_received.connect (this.on_drag_data_received);
