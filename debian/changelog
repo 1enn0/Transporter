@@ -1,7 +1,0 @@
-transporter (1.3.3) xenial; urgency=low
-
-  * Added custom Download folder support
-  * Added single file selection support instead of drag and dropping
-  * Translated into Russian, Lithuanian, French and Italian languages!
-
- -- bleak_grey <bleakgrey@gmail.com>  Tue, 27 Feb 2018 10:00:00 -0500
