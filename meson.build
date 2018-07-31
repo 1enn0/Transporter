@@ -1,4 +1,4 @@
-project('com.github.bleakgrey.transporter', 'vala', 'c')
+project('com.github.1enn0.transporter', 'vala', 'c')
 
 i18n = import('i18n')
 

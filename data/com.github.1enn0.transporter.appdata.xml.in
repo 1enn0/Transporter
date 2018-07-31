@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2018 bleak_grey <bleakgrey@gmail.com> -->
+<!-- Copyright 2018 bleak_grey <1enn0@gmail.com> -->
 <component type="desktop">
-  <id>com.github.bleakgrey.transporter.desktop</id>
+  <id>com.github.1enn0.transporter.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>Transporter</name>
@@ -18,21 +18,21 @@
     </p>
   </description>
   <provides>
-    <binary>com.github.bleakgrey.transporter</binary>
+    <binary>com.github.1enn0.transporter</binary>
   </provides>
   <developer_name>bleak_grey</developer_name>
-  <url type="homepage">https://github.com/bleakgrey</url>
-  <url type="bugtracker">https://github.com/bleakgrey/transporter/issues</url>
-  <url type="donation">https://liberapay.com/bleakgrey</url>
+  <url type="homepage">https://github.com/1enn0</url>
+  <url type="bugtracker">https://github.com/1enn0/transporter/issues</url>
+  <url type="donation">https://liberapay.com/1enn0</url>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/bleakgrey/transporter/master/data/screenshot.png</image>
+      <image>https://raw.githubusercontent.com/1enn0/transporter/master/data/screenshot.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/bleakgrey/transporter/master/data/screenshot2.png</image>
+      <image>https://raw.githubusercontent.com/1enn0/transporter/master/data/screenshot2.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/bleakgrey/transporter/master/data/screenshot3.png</image>
+      <image>https://raw.githubusercontent.com/1enn0/transporter/master/data/screenshot3.png</image>
     </screenshot>
   </screenshots>
 

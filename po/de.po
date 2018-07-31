@@ -1,11 +1,11 @@
-# German translations for com.github.bleakgrey.transporter package.
-# Copyright (C) 2018 THE com.github.bleakgrey.transporter'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the com.github.bleakgrey.transporter package.
+# German translations for com.github.1enn0.transporter package.
+# Copyright (C) 2018 THE com.github.1enn0.transporter'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.1enn0.transporter package.
 # Peter Eisenmann <p3732@gmx.de>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.bleakgrey.transporter\n"
+"Project-Id-Version: com.github.1enn0.transporter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-18 22:47+0300\n"
 "PO-Revision-Date: 2018-06-11 20:54+0200\n"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-	<schema path="/com/github/bleakgrey/transporter/" id="com.github.bleakgrey.transporter" gettext-domain="com.github.bleakgrey.transporter">
+	<schema path="/com/github/1enn0/transporter/" id="com.github.1enn0.transporter" gettext-domain="com.github.1enn0.transporter">
 		<key name="server-relay" type="s">
 			<default>'ws://relay.magic-wormhole.io:4000/v1'</default>
 			<summary>Relay Server</summary>

@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the com.github.bleakgrey.transporter package.
+# This file is distributed under the same license as the com.github.1enn0.transporter package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.bleakgrey.transporter\n"
+"Project-Id-Version: com.github.1enn0.transporter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-18 22:47+0300\n"
 "PO-Revision-Date: 2018-05-18 12:32+0200\n"

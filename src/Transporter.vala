@@ -15,7 +15,7 @@ public class Transporter : Granite.Application {
     };
 
     construct {
-            application_id = "com.github.bleakgrey.transporter";
+            application_id = "com.github.1enn0.transporter";
             flags = ApplicationFlags.HANDLES_OPEN;
             program_name = "Transporter";
             build_version = "1.3.3";

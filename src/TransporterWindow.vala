@@ -22,7 +22,7 @@ public class TransporterWindow: Gtk.Dialog {
 
     public TransporterWindow (Gtk.Application application) {
          Object (application: application,
-         icon_name: "com.github.bleakgrey.transporter",
+         icon_name: "com.github.1enn0.transporter",
             title: "Transporter",
             resizable: false
         );

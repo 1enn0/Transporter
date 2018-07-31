@@ -23,7 +23,7 @@ public class TransporterSettings : Granite.Services.Settings {
     }
 
     private TransporterSettings () {
-        base ("com.github.bleakgrey.transporter");
+        base ("com.github.1enn0.transporter");
     }
 
 }

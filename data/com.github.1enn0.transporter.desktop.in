@@ -13,8 +13,8 @@ GenericName[lt]=Dalinimasis failais
 GenericName[fr_FR]=Partage de fichiers
 GenericName[it_IT]=Condivisione di File
 GenericName[pt_BR]=Compartilhamento de Arquivos
-Exec=com.github.bleakgrey.transporter
-Icon=com.github.bleakgrey.transporter
+Exec=com.github.1enn0.transporter
+Icon=com.github.1enn0.transporter
 Terminal=false
 Categories=GNOME;GTK;Utility;Network;FileTransfer;
 Keywords=share;files;send;receive;wormhole;transfer;
@@ -25,13 +25,13 @@ Keywords[it_IT]=condivisione;file;mandare;ricevere;wormhole;trasferimento;
 Keywords[pt_BR]=compartilhar;arquivos;enviar;receber;wormhole;transferir;
 MimeType=text/plain;
 StartupNotify=true
-X-GNOME-Gettext-Domain=com.github.bleakgrey.transporter
+X-GNOME-Gettext-Domain=com.github.1enn0.transporter
 Actions=ShowSend;ShowReceive;
 
 [Desktop Action ShowSend]
-Exec=com.github.bleakgrey.transporter --send
+Exec=com.github.1enn0.transporter --send
 Name=Send Files
 
 [Desktop Action ShowReceive]
-Exec=com.github.bleakgrey.transporter --receive
+Exec=com.github.1enn0.transporter --receive
 Name=Receive Files

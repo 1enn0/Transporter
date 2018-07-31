@@ -1,12 +1,12 @@
-# Tradução para o idioma Português da aplicação com.github.bleakgrey.transporter package.
+# Tradução para o idioma Português da aplicação com.github.1enn0.transporter package.
 # Direitos Autorais (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# Este arquivo é distribuido sob mesma licensa do pacote com.github.bleakgrey.transporter.
+# Este arquivo é distribuido sob mesma licensa do pacote com.github.1enn0.transporter.
 # Primeiro Autor <helder.bertoldo@gmail.com>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.bleakgrey.transporter\n"
+"Project-Id-Version: com.github.1enn0.transporter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-20 18:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
