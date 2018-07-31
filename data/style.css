@@ -1,0 +1,11 @@
+.dnd-box {
+  border: 2px dashed #C2CDDA;
+  border-radius: 2px;
+  transition: background-color .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+
+.on_drag_motion {
+  border: 2px dashed #4CAF50;
+  background-color: #E8F5E9;
+}

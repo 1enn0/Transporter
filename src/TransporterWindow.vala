@@ -56,6 +56,19 @@ public class TransporterWindow: Gtk.Dialog {
             Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
         );
 
+        var provider = new Gtk.CssProvider();
+        try {
+          provider.load_from_resource("/com/github/1enn0/transporter/style.css");
+        
+        } catch (GLib.Error e) {
+          warning("style sheet did not load: %s", e.message);
+        }
+        Gtk.StyleContext.add_provider_for_screen(
+          Gdk.Screen.get_default(),
+          provider,
+          Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+          );
+
         stack = new Stack();
         stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
         stack.show ();

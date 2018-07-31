@@ -24,6 +24,7 @@ public class DropView : AbstractView {
         drop.hexpand = true;
         drop.vexpand = true;
         drop.get_style_context ().add_class ("drop");
+        drop.get_style_context ().add_class ("dnd-box");
         box.add (drop);
 
         title = new Gtk.Label (DRAG_TEXT);
@@ -44,7 +45,7 @@ public class DropView : AbstractView {
         add (box);
         show_all ();
 
-        Gtk.drag_dest_set (this, Gtk.DestDefaults.ALL, targets, Gdk.DragAction.COPY);
+        Gtk.drag_dest_set (this, Gtk.DestDefaults.MOTION, targets, Gdk.DragAction.COPY);
         drag_motion.connect (this.on_drag_motion);
         drag_leave.connect (this.on_drag_leave);
         drag_data_received.connect (this.on_drag_data_received);
@@ -81,16 +82,19 @@ public class DropView : AbstractView {
     private bool on_drag_motion (DragContext context, int x, int y, uint time){
         title.label = DROP_TEXT;
         subtitle.label = "";
+        this.drop.get_style_context().add_class("on_drag_motion");
         return false;
     }
 
     private void on_drag_leave (DragContext context, uint time) {
         title.label = DRAG_TEXT;
         subtitle.label = SUBTITLE_TEXT;
+        this.drop.get_style_context().remove_class("on_drag_motion");
     }
 
     private void on_drag_data_received (Gdk.DragContext drag_context, int x, int y, Gtk.SelectionData data, uint info, uint time){
         Gtk.drag_finish (drag_context, true, false, time);
+        this.drop.get_style_context().remove_class("on_drag_motion");
 
         string[] paths = {};
         var uris = data.get_uris ();

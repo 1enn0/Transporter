@@ -1,5 +1,6 @@
 project('com.github.1enn0.transporter', 'vala', 'c')
 
+gnome = import('gnome')
 i18n = import('i18n')
 
 add_global_arguments([
@@ -8,8 +9,15 @@ add_global_arguments([
     language: 'c',
 )
 
+as_resources = gnome.compile_resources(
+  'as-resources', 'data/' + meson.project_name() + '.gresource.xml',
+  source_dir: 'data',
+  c_name: 'as'
+  )
+
 executable(
     meson.project_name(),
+    as_resources,
     'src/Transporter.vala',
     'src/TransporterWindow.vala',
     'src/Settings.vala',
