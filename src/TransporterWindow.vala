@@ -11,14 +11,14 @@ public class TransporterWindow: Gtk.Dialog {
 
     public WormholeInterface wormhole;
 
-    private const string STYLE = """
-    @define-color colorAccent #7a36b1;
-    .drop{
-        border: 2px dashed rgba(0,0,0,.25);
-        border-radius: 5px;
-        padding: 32px;
-    }
-    """;
+    /* private const string STYLE = """ */
+    /* @define-color colorAccent #7a36b1; */
+    /* .drop{ */
+    /*     border: 2px dashed rgba(0,0,0,.25); */
+    /*     border-radius: 5px; */
+    /*     padding: 32px; */
+    /* } */
+    /* """; */
 
     public TransporterWindow (Gtk.Application application) {
          Object (application: application,
@@ -49,12 +49,6 @@ public class TransporterWindow: Gtk.Dialog {
     construct{
         get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
         get_content_area ().set_size_request (400, 400);
-
-        Granite.Widgets.Utils.set_theming_for_screen (
-            get_screen(),
-            STYLE,
-            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-        );
 
         var provider = new Gtk.CssProvider();
         try {

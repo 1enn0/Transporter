@@ -23,7 +23,6 @@ public class DropView : AbstractView {
         drop = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         drop.hexpand = true;
         drop.vexpand = true;
-        drop.get_style_context ().add_class ("drop");
         drop.get_style_context ().add_class ("dnd-box");
         box.add (drop);
 
@@ -72,8 +71,15 @@ public class DropView : AbstractView {
         
         if (chooser.run () == Gtk.ResponseType.ACCEPT) {
             var uri = chooser.get_uri ();
-            var path = GLib.Filename.from_uri (uri);
-            send ({path});
+            try 
+            {
+              var path = GLib.Filename.from_uri (uri);
+              send ({path});
+            } 
+            catch (GLib.ConvertError e) 
+            {
+              warning("Could not convert uri to filename: %s", e.message);
+            }
         }
         chooser.close ();
         return true;
