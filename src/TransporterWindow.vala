@@ -11,15 +11,6 @@ public class TransporterWindow: Gtk.Dialog {
 
     public WormholeInterface wormhole;
 
-    /* private const string STYLE = """ */
-    /* @define-color colorAccent #7a36b1; */
-    /* .drop{ */
-    /*     border: 2px dashed rgba(0,0,0,.25); */
-    /*     border-radius: 5px; */
-    /*     padding: 32px; */
-    /* } */
-    /* """; */
-
     public TransporterWindow (Gtk.Application application) {
          Object (application: application,
          icon_name: "com.github.1enn0.transporter",
