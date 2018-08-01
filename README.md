@@ -31,6 +31,11 @@ Finally, install and execute with:
     sudo ninja install
     com.github.bleakgrey.transporter
 
+## Todo
+* remove ```granite``` dependency
+* prepare for flatpak
+* visual polish
+
 ## Contributing
 
 If you feel like contributing, you're always welcome to help the project in many ways:
