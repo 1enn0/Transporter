@@ -18,8 +18,8 @@
 		</key>
 		<key name="words" type="i">
 			<default>2</default>
-			<summary>Words Count</summary>
-			<description>Sets how many words should Transfer ID contain.</description>
+			<summary>Word Count</summary>
+			<description>Number of words the Transfer ID should contain.</description>
 		</key>
 		<key name="downloads" type="s">
 			<default>'null'</default>

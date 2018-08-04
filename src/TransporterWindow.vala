@@ -61,7 +61,8 @@ public class TransporterWindow: Gtk.Dialog {
         spinner = new Spinner ();
         spinner.active = true;
 
-        back_button = new Button.with_label (_("Back"));
+        back_button = new Button ();
+        back_button.image = new Gtk.Image.from_icon_name ("go-previous-symbolic", Gtk.IconSize.SMALL_TOOLBAR);
         back_button.get_style_context ().add_class (Granite.STYLE_CLASS_BACK_BUTTON);
         back_button.clicked.connect (() => {
             if (back_button.sensitive)
